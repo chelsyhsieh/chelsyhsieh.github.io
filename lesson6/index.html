@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+ <!-- Required meta tags -->
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <!-- Bootstrap CSS -->
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+   crossorigin="anonymous">
+ <title>誰要來參加我的婚禮之報名表</title>
+ <style>
+    body{
+        margin: 20px;
+        padding: 20px;
+    }
+ </style>
+</head>
+<body>
+<div class="container mt-5">
+ <h1>大家要來參加我的婚禮ㄇ</h1>
+ <form>
+   <div class="form-row">
+     <div class="form-group col-12 col-md-4">
+         <label for="input_name">你的名字</label>
+         <input class="form-control box col-md-4" type="text" id="input_name" placeholder="容容兒">
+     </div>
+   </div>
+   <div class="form-row">
+      <div class="form-group col-md-6 col-sm-12">
+          <label>參加人數</label>
+          <select id="sel_adult" class="form-control">
+            <option value="大人">大人</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+          </select>
+      </div>
+      <div class="form-group col-sm-12 col-md-3">
+          <label class="d-none d-md-block">&nbsp;</label>
+          <select id="sel_kid" class="form-control">
+            <option value="小孩">小孩</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+          </select>
+      </div>
+      <div class="form-group col-sm-12 col-md-3">
+          <label class="d-none d-md-block">&nbsp;</label>
+          <select id="sel_pet" class="form-control">
+            <option value="寵物">寵物</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+          </select>
+      </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-12">
+            <label for="input_name" class="d-block">吃肉還吃菜</label>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="radio_eat" id="radio_eat_meat" value="meat" checked>
+                <label class="form-check-label" for="radio_eat_meat">
+                    肉
+                </label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="radio_eat" id="radio_eat_veg" value="veg">
+                <label class="form-check-label" for="radio_eat_veg">
+                    菜
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-12">
+            <label for="input_name" class="d-block">你的身份</label>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="check_games" id="check_games_0" value="0">
+                <label class="form-check-label" for="check_games_0">
+                    女方親友
+                </label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="check_games" id="check_games_1" value="1">
+                <label class="form-check-label" for="check_games_1">
+                    男方親友
+                </label>
+            </div>
+        </div>
+     </div>
+     <div class="form-row">
+        <div class="form-group col-12 col-md-4">
+            <label>想對我們說什麼呢</label>
+            <textarea class="form-control" id="text_note" rows="3" placeholder="我想說"></textarea>
+        </div>
+     </div>
+
+
+
+     <button class="btn btn-danger">送出</button>
+     <button class="btn btn-link">我不寫了</button>
+
+ </form>
+ <!-- Optional JavaScript -->
+ <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+   crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+   crossorigin="anonymous"></script>
+  </div>
+</body>
+</html>
